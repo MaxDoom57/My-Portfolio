@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  @apply w-10 h-10 text-white bg-gray-500 rounded-md shadow-inner;
+}
+
+/* src/index.css */
+
+html {
+  transition: background-color 0.9s, color 0.3s;
+}
+
+html.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Add other dark mode styles */
+
+/*
+bg shade -stone-300
+          slate-300
+
+ring- slate-700
+active- gray-500
+*/
